@@ -18,4 +18,8 @@ export class PostsComponent implements OnInit {
     this.mensajes = this.dataService.getData()
   }
 
+  escuchoClick( id: number) {
+    console.log('Click en: ', id);
+  }
+
 }
